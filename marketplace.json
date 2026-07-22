@@ -1,0 +1,19 @@
+{
+  "name": "omnitravel-marketplace",
+  "owner": {
+    "name": "omnitravelrepo"
+  },
+  "metadata": {
+    "description": "OmniTravel plugins for B2B travel workflows",
+    "version": "0.8.1"
+  },
+  "plugins": [
+    {
+      "name": "hotel-contract-extractor",
+      "source": "./plugins/hotel-contract-extractor",
+      "description": "Extract hotel rates, seasons and policies from B2B contract PDFs into validated JSON and agenda-style rate tables (xlsx/html/csv). FIT/group segmentation, room attribute mapping, typed fees, commission, promotions, prompt-injection tripwire.",
+      "version": "0.8.1",
+      "author": { "name": "omnitravel.ai" }
+    }
+  ]
+}
