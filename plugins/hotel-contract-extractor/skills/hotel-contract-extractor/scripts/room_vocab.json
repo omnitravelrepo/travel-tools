@@ -1,0 +1,65 @@
+{
+  "room_type": {
+    "junior_suite": {"code": "JST", "capacity": 2, "patterns": ["junior suite", "jr suite", "junior-suite"]},
+    "suite": {"code": "STE", "capacity": null, "patterns": ["suite"]},
+    "family": {"code": "FAM", "capacity": 4, "patterns": ["family", "familiale", "famille"]},
+    "quadruple": {"code": "QUA", "capacity": 4, "patterns": ["quadruple", "quad", "qdr"]},
+    "triple": {"code": "TPL", "capacity": 3, "patterns": ["triple", "tpl"]},
+    "twin": {"code": "TWN", "capacity": 2, "patterns": ["twin", "lits jumeaux", "2 lits", "deux lits"]},
+    "double": {"code": "DBL", "capacity": 2, "patterns": ["double", "dbl", "matrimoniale"]},
+    "single": {"code": "SGL", "capacity": 1, "patterns": ["single", "individuelle", "sgl", "1 personne"]},
+    "studio": {"code": "STU", "capacity": 2, "patterns": ["studio"]},
+    "apartment": {"code": "APT", "capacity": null, "patterns": ["apartment", "appartement", "apt"]},
+    "duplex": {"code": "DPX", "capacity": null, "patterns": ["duplex"]},
+    "villa": {"code": "VIL", "capacity": null, "patterns": ["villa"]},
+    "bungalow": {"code": "BGW", "capacity": null, "patterns": ["bungalow"]},
+    "chalet": {"code": "CHA", "capacity": null, "patterns": ["chalet"]},
+    "dorm": {"code": "DRM", "capacity": null, "patterns": ["dortoir", "dorm", "dormitory"]}
+  },
+  "category": {
+    "prestige": {"code": "PRG", "patterns": ["prestige"]},
+    "privilege": {"code": "PRV", "patterns": ["privilege", "privilège"]},
+    "executive": {"code": "EXE", "patterns": ["executive", "exécutive"]},
+    "deluxe": {"code": "DLX", "patterns": ["deluxe", "de luxe", "luxe"]},
+    "superior": {"code": "SUP", "patterns": ["superior", "supérieure", "superieure", "sup"]},
+    "comfort": {"code": "CMF", "patterns": ["comfort", "confort"]},
+    "classic": {"code": "CLA", "patterns": ["classic", "classique"]},
+    "standard": {"code": "STD", "patterns": ["standard", "std"]},
+    "economy": {"code": "ECO", "patterns": ["economy", "économique", "economique", "eco"]}
+  },
+  "view": {
+    "partial_sea": {"code": "PSV", "patterns": ["vue mer laterale", "vue mer partielle", "partial sea view", "side sea view", "sea view side"]},
+    "sea": {"code": "SV", "patterns": ["vue mer", "vue sur mer", "sea view", "ocean view", "seaview", "front de mer", "vue ocean"]},
+    "pool": {"code": "PV", "patterns": ["vue piscine", "pool view", "vue sur piscine"]},
+    "garden": {"code": "GV", "patterns": ["vue jardin", "garden view", "vue sur jardin", "cote jardin"]},
+    "mountain": {"code": "MV", "patterns": ["vue montagne", "mountain view", "vue sur montagne"]},
+    "lake": {"code": "LV", "patterns": ["vue lac", "lake view", "vue sur lac"]},
+    "city": {"code": "CV", "patterns": ["vue ville", "city view", "vue sur ville"]},
+    "courtyard": {"code": "CYV", "patterns": ["vue cour", "cote cour", "courtyard view", "sur cour"]}
+  },
+  "bedding": {
+    "king": {"patterns": ["lit king", "king size", "king bed", "king"]},
+    "queen": {"patterns": ["lit queen", "queen size", "queen bed", "queen"]},
+    "sofa_bed": {"patterns": ["canape lit", "canape-lit", "sofa bed", "sofa-bed", "clic clac"]},
+    "bunk": {"patterns": ["lits superposes", "bunk beds", "bunk bed"]}
+  },
+  "amenities": {
+    "balcony": {"patterns": ["balcon", "balcony"]},
+    "terrace": {"patterns": ["terrasse", "terrace"]},
+    "jacuzzi": {"patterns": ["jacuzzi", "whirlpool", "bain a remous", "baignoire balneo", "balneo"]},
+    "kitchenette": {"patterns": ["kitchenette", "coin cuisine"]},
+    "kitchen": {"patterns": ["cuisine equipee", "full kitchen"]},
+    "air_conditioning": {"patterns": ["climatisation", "climatisee", "air conditioning", "air conditionne", "clim"]},
+    "minibar": {"patterns": ["minibar", "mini-bar", "mini bar"]},
+    "safe": {"patterns": ["coffre-fort", "coffre fort", "safe"]},
+    "connecting": {"patterns": ["communicante", "communicantes", "connecting"]},
+    "fireplace": {"patterns": ["cheminee", "fireplace"]},
+    "private_pool": {"patterns": ["piscine privee", "private pool"]}
+  },
+  "accessible": {
+    "patterns": ["pmr", "accessible", "mobilite reduite", "wheelchair", "handicap", "handicapee", "adaptee pmr"]
+  },
+  "stopwords": ["avec", "with", "de", "du", "des", "la", "le", "les", "l", "et",
+                "and", "a", "au", "aux", "en", "sur", "ou", "or", "chambre",
+                "room", "bedroom", "type", "cat", "categorie"]
+}

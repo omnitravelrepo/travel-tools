@@ -1,0 +1,5 @@
+interface:
+  display_name: "Hotel Contract Extractor"
+  short_description: "Hotel PDF contracts to validated rate tables"
+  brand_color: "#2A3F54"
+  default_prompt: "Use $hotel-contract-extractor to extract the rates, seasons and policies from this hotel contract PDF into an agenda spreadsheet."
