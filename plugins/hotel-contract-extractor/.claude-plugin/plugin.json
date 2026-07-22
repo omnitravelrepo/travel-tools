@@ -1,0 +1,9 @@
+{
+     "name": "hotel-contract-extractor",
+     "version": "0.8.1",
+     "description": "Extract hotel rates, seasons and conditions from B2B contract PDFs into validated JSON and an agenda-style rate table (xlsx/html/csv).",
+     "author": {
+       "name": "Olivier"
+     },
+     "keywords": ["hotel", "rates", "contract", "pdf", "b2b", "travel"]
+   }
